@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2010755408/display_1500/stock-photo-young-happy-laughing-creative-team-four-multicultural-coworkers-or-college-students-group-celebrate-2010755408.jpg");
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(50%);
+    background-size: cover;
+}
+
+nav {
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo {
+    width: 30%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li:first-child a {
+    color: orange;
+}
+
+nav ul li:hover a, .logo:hover {
+    color: orange;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+    height: 100%;
+    gap: 2rem;
+}
+
+.container p {
+    font-weight: 500;
+}
+
+.container h2 {
+    font-size: 3rem;
+}
+
+.container .btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.container .btn {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+.container .like-btn {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
